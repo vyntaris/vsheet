@@ -1,0 +1,17 @@
+[package]
+name = "vsheet-calc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "VSheet calculation engine: dependency graph, recalculation, evaluator, dynamic arrays"
+
+[lints]
+workspace = true
+
+[dependencies]
+vsheet-core = { workspace = true }
+vsheet-formula = { workspace = true }
+vsheet-functions = { workspace = true }
+vsheet-numfmt = { workspace = true }
+vsheet-model = { workspace = true }
+log = { workspace = true }

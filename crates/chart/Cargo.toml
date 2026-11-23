@@ -1,0 +1,16 @@
+[package]
+name = "vsheet-chart"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "VSheet charts: data resolution, layout into toolkit-free primitives, sparklines and a small rasteriser"
+
+[lints]
+workspace = true
+
+[dependencies]
+vsheet-core = { workspace = true }
+vsheet-model = { workspace = true }
+vsheet-calc = { workspace = true }
+vsheet-numfmt = { workspace = true }
+serde = { workspace = true }

@@ -1,0 +1,18 @@
+[package]
+name = "vsheet-model"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "VSheet document model: workbooks, sheets, cells, styles, tables, charts"
+
+[lints]
+workspace = true
+
+[dependencies]
+vsheet-core = { workspace = true }
+sha2 = { workspace = true }
+vsheet-formula = { workspace = true }
+vsheet-math = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }

@@ -1,0 +1,13 @@
+[package]
+name = "vsheet-functions"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "VSheet worksheet function library: math, statistics, text, dates, lookup, financial, engineering"
+
+[lints]
+workspace = true
+
+[dependencies]
+vsheet-core = { workspace = true }
+regex = { workspace = true }
