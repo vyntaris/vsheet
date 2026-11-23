@@ -166,8 +166,7 @@ impl Default for UiState {
     fn default() -> Self {
         UiState {
             dark: false,
-            // Vyntaris: follows the desktop (its GTK theme) unless the user picks light or dark.
-            system_theme: true,
+            system_theme: false,
             ribbon_tab: "Home".into(),
             ribbon_collapsed: false,
             formula_bar_expanded: false,

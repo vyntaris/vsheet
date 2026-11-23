@@ -1154,26 +1154,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "craft-web-api"
-version = "0.1.0"
-source = "git+https://github.com/storytold/craft-libs?rev=aa84415bae3b765fef6b7ef42404f66ad1cff9d9#aa84415bae3b765fef6b7ef42404f66ad1cff9d9"
-dependencies = [
- "js-sys",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "craft-web-host"
-version = "0.1.0"
-source = "git+https://github.com/storytold/craft-libs?rev=aa84415bae3b765fef6b7ef42404f66ad1cff9d9#aa84415bae3b765fef6b7ef42404f66ad1cff9d9"
-dependencies = [
- "wasm-bindgen",
- "web-sys",
-]
-
-[[package]]
 name = "craft-window"
 version = "0.1.0"
 source = "git+https://github.com/storytold/craft-libs?rev=e98299546f5c5c3c22388d16507f8b5e61a5f280#e98299546f5c5c3c22388d16507f8b5e61a5f280"
@@ -5890,19 +5870,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "vsheet-cli"
-version = "0.19.1"
-dependencies = [
- "log",
- "quick-xml 0.41.0",
- "serde_json",
- "vsheet-engine",
- "vsheet-mcp",
- "vsheet-sandbox",
- "zip 3.0.0",
-]
-
-[[package]]
 name = "vsheet-core"
 version = "0.19.1"
 dependencies = [
@@ -6045,25 +6012,6 @@ dependencies = [
  "web-sys",
  "web-time",
  "zbus",
-]
-
-[[package]]
-name = "vsheet-web"
-version = "0.19.1"
-dependencies = [
- "craft-web-api",
- "craft-web-host",
- "eframe",
- "egui",
- "js-sys",
- "log",
- "rfd",
- "serde_json",
- "vsheet-engine",
- "vsheet-ui-egui",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
 ]
 
 [[package]]
@@ -7013,14 +6961,6 @@ name = "xml-rs"
 version = "0.8.29"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e450f9b2ed1dff33c94c12589a87338689467b9c4f5d8a5710bd09a847d2c8a7"
-
-[[package]]
-name = "xtask"
-version = "0.19.1"
-dependencies = [
- "serde_json",
- "vsheet-engine",
-]
 
 [[package]]
 name = "yoke"

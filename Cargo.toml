@@ -1,7 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["crates/*", "apps/*", "xtask", "shared/*"]
-default-members = ["crates/*", "apps/vsheet", "apps/vsheet-cli", "xtask"]
+members = ["crates/*", "apps/*", "shared/*"]
 
 [workspace.package]
 version = "0.19.1"

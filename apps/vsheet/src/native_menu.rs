@@ -184,8 +184,7 @@ fn tree() -> Vec<(&'static str, Vec<Entry>)> {
                 ("Check for Updates…", "app.checkForUpdates", None),
                 ("Agent Control (MCP)…", "dialog:agents", None),
                 ("Contributors…", "dialog:about:Contributors", None),
-                ("VSheet on getartcraft.com", "url:https://getartcraft.com/apps/vsheet", None),
-                ("Join the ArtCraft Discord…", "url:https://discord.gg/artcraft", None),
+                ("VSheet on GitHub", "url:https://github.com/vyntaris/vsheet", None),
             ],
         ),
     ]
